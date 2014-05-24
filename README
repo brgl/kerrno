@@ -1,0 +1,14 @@
+kerrno
+
+Get preprocessor definitions and descriptions of errno numbers from the
+Linux kernel source.
+
+This script parses all the C headers containing errno definitions in the
+Linux source tree and extracts their definitions and corresponding
+descriptions to help you out with kernel debugging.
+
+Example:
+	kerrno.sh 43 -12 3
+
+Call it from the top of the source tree.
+
